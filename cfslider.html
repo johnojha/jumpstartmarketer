@@ -1,0 +1,34 @@
+<head>
+<script
+    language="JavaScript"
+    src="js/slider.js">
+</script>
+<link
+    href="styles/default.css"
+    rel="stylesheet"
+    type="text/css">
+</head>
+
+<body>
+<div class="carpe_horizontal_slider_track">
+    <div class="carpe_slider_slit">&nbsp;</div>
+    <div class="carpe_slider"
+        id="your_slider_id"
+        orientation="horizontal"
+        distance="100"
+        display="your_display_id"
+        style="left: 300px;" style="top:300px">&nbsp;</div>
+</div>
+It's important that you use the proper class names. Both functionality and styling depend on it. The slider attributes should be set. A slider without the slider attributes will work, but with the default settings (shown above). The default position for the slider is specified in the style attribute, as left: [position in pixels]px for horizontal sliders, and top: [position in pixels from top]px. In this example the slider position is set to 0 pixels. The JavaScript will set the sliders up automatically when the page is loaded.
+The corresponding display would look like this:
+<div class="carpe_slider_display_holder" >
+    <input class="carpe_slider_display"
+        id="your_display_id"
+        name="your_var_name"
+        type="text" 
+        from="0" 
+        to="100" 
+        valuecount="101" 
+        value="0" 
+        typelock="off" /></div>
+</body>

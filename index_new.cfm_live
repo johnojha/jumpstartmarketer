@@ -1,0 +1,348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>The Jumpstart Marketer</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!--- <link href="styles.css" rel="stylesheet" type="text/css"> --->
+
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
+<![endif]-->
+
+<script type="text/javascript" src="js/lightbox/jquery.lightbox.min.js"></script>
+</head>
+
+<style>
+body   {
+	margin: 0px;
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+li {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #666;
+	margin-top: 9px;
+	margin-right: 12px;
+	margin-bottom: 3px;
+	margin-left: 33px;
+	list-style-type: circle;
+	font-weight: bold;
+}
+
+a {
+	color: #0D3070;
+	text-decoration: none;
+}
+.topnavbg {
+	background-image: url(images/topnavbg.jpg);
+	height: 59px;
+	background-repeat: no-repeat;
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #353535;
+	text-align: left;
+}
+
+h1 {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	margin: 10px;
+	font-size: 20px;
+	color: #000;
+	font-weight: normal;
+}
+h2 {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	margin: 13px;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+h3 {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	margin: 13px;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+
+p {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	margin: 10px;
+}
+p.small {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin: 10px;
+}
+
+.footer {
+	background-image: url(images/footbg.jpg);
+	background-repeat: repeat-x;
+	height: 61px;
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-align: center;
+}
+A.footerlink:link, A.footerlink:visited, A.footerlink:active {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+A.footerlink:hover {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+
+}
+A.toplink:link, A.toplink:visited, A.toplink:active {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #353535;
+	text-decoration: none;
+	text-transform: none;
+}
+.rightimage {
+	margin-top: 8px;
+	margin-left: 8px;
+}
+A.toplink:hover {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #353535;
+	text-decoration: underline;
+	text-transform: none;
+}
+.maintablebg {
+	background-image: url(images/maintablebg.gif);
+}
+.logobg {
+	background-image: url(images/logobg.gif);
+	height: 113px;
+}
+.footergradient {
+	background-image: url(images/footerbggradient.jpg);
+	height: 197px;
+	background-repeat: repeat-x;
+}
+.leftimage {
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+#nav
+{
+background:#387ed8;
+border-radius:10px;
+width:99%;
+height:38px;
+text-align:center;
+margin-left:8px;
+
+padding-left:10px;
+}
+#nav a
+{
+	color:#ffffff;
+	font-size:16px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+
+.navitem
+{
+	float:left;
+	margin-left:60px;
+	height:30px;
+	width:110px;
+	padding-top:7px;
+	
+}
+
+.navitem_first
+{
+	float:left;
+	margin-left:80px;
+	background:#002162;
+	height:30px;
+	width:110px;
+	padding-top:7px;
+	
+}
+</style>
+
+<body>
+<table width="1025" border="0" cellspacing="0" cellpadding="0" align="center" class="maintablebg">
+  <tr>
+    <td><table width="1025" border="0" cellspacing="0" cellpadding="0" class="logobg">
+      <tr>
+        <td width="252">&nbsp;</td>
+        <td width="446">&nbsp;</td>
+        <td width="314" height="35"><div align="right">&nbsp;</div></td>
+        <td width="13">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="252">&nbsp;</td>
+        <td width="446"><div align="right"></div></td>
+        <td width="314" height="40" valign="top"><div align="right">&nbsp;</div></td>
+        <td width="13">&nbsp;</td>
+      </tr>
+      <tr>
+	<td colspan="4">&nbsp;</td>
+      </tr>
+
+      <tr>
+        
+	
+        <td height="38" colspan="3">
+	
+	<div id="nav" style="color:white;font-size:14px;">
+	 <cfif client.cid eq 0>
+	<div class="navitem_first"><a href="index_new.cfm">Home</a> </div>
+	<div class="navitem"><a href="index.cfm?fa=legal&bg=1">Sign Up Now</a></div>
+	<div class="navitem"><a href="index.cfm?fa=login">Login</a></div>
+	<div class="navitem"><a href="video.cfm">Video Demo</a></div>
+	<div class="navitem"><a href="index.cfm?fa=contact">Contact Us</a></div>
+	
+	
+
+	<cfelse>
+	
+	<div class="navitem_first"><a href="index.cfm?fa=home">Home</a> </div>
+	
+
+	<div class="navitem"><a href="index.cfm?fa=my_business">My Business</a></div>
+
+	<div class="navitem"><a href="index.cfm?fa=profile">My Profile</a></div>
+
+	<div class="navitem"><a href="index.cfm?fa=support">Support</a></div>
+
+	<div class="navitem"><a href="index.cfm?fa=intro">Directions</a></div>
+
+
+	</cfif>
+	</div></td>
+        
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><img src="images/bluebanner.jpg" width="1025" height="344" alt="Jump Start Your Marketing"></td>
+  </tr>
+  <tr>
+    <td><a href="images/track_record.jpg" class="lightbox"><img src="images/keith-information.jpg" width="1025" height="194" alt="Jump Start Your Marketing" style="border:0px;"></a></td>
+  </tr>
+  <tr>
+    <td height="19">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+
+    <div style="background:url(how-it-works.jpg) no-repeat;width:991px;height:305px;margin-left:15px;">
+		<div style="padding-top:270px;width:990px;height:24px;">
+		<div style="margin-top:-4px;width:180px;height:38px;margin-left:200px;"><a href="video.cfm"><div style="width:160px;height:38px;">&nbsp;</div></a></div>
+		
+		<div style="margin-top:-41px;width:180px;height:38px;margin-left:410px;"><a href="http://jumpstartmarketer.com/index.cfm?fa=consultant&be=jumpstart_marketer"><div style="width:160px;height:38px;">&nbsp;</div></a></div>
+		<div style="margin-top:-40px;width:180px;height:38px;margin-left:610px;"><a href="index.cfm?fa=contact"><div style="width:160px;height:38px;">&nbsp;</div></a></div>
+		</div>
+
+    </div>
+    
+    
+    
+    </td>
+  </tr>
+  <tr>
+    <td><table width="989" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td width="25%" valign="top">
+
+	<h1> Expert Panel</h1>
+<p>Our panel of experts is comprised of creative marketers who have been 
+trained by Keith Chambers and the Chambers Group Staff. They are uniquely qualified to
+review your input, report back on the quality of the work and identify the Remarkable 
+Triggers that you will incorporate into your Selling Proposition.</p>
+
+<h1>Consumer Panel</h1>
+<p>Our consumer panel is comprised of a general population pool. The pool is tracked for accuracy and modified as necessary to ensure reliable results. The panel is considered qualitative research by the industry in the same category as well known consumer focus groups.</p>
+         
+
+
+	</td>
+        <td width="25%" valign="top"><h1>Boosting Sales</h1>
+          <p>Here at JumpStart Marketer, you get: </p>
+          <p>- Step-by-step supervised guidance</p>
+          <p>- Constant feedback from the &nbsp;&nbsp;JumpStart expert panel</p>
+          <p>- Valuable feedback from &nbsp;&nbsp;consumers</p>
+          <p>- A remarkable sales message that &nbsp;&nbsp;will drive your business forward</p>
+          <p>- The marketing power of big &nbsp;&nbsp;business</p>
+
+	  
+	  
+	  
+	  </td>
+        <td width="25%" valign="top"><h1>Affordable</h1>
+          <p>In the corporate world, it is not uncommon for marketers to spend well over a million dollars developing a single new product sales message. </p>
+          <p>Just as costly is the effort to research existing products and change them as part of an aggressive campaign to keep up with their competition. </p>
+          <p>Here at JumpStart Marketer, you can launch a new product or service, or enhance an existing one with a new and powerful sales message for as little as $699.</p>
+
+	   
+	  
+	  </td>
+        <td width="25%" valign="top"><h1>Marketing Consultant Options</h1>
+          <p>As you work your way through the JumpStart Marketer process, you will begin by generating marketing content for your product or service, and hiring your own graphic designers to create your images. If you choose not to use your people at any time during the process, you will be offered the opportunity to hire one of our JumpStart Creative Team graphic designers or copywriters to do the work for you.   
+          <p>If you choose not to use your people at any time during the process you will be offered the opportunity to hire one of the JumpStart' Creative Team members to do the work for you. They are all highly skilled at creating graphics and writing copy that combine into powerful sales messages.   </p>
+          <p>As a business owner, it's important to have access to experienced creative people when you need them. Our JumpStart creative team is ready when you need them.</p>
+
+
+	 
+	  
+	  
+	  
+	  </td>
+      </tr>
+    </table>
+    <br></td>
+  </tr>
+  <tr>
+    <td><table width="989" border="0" cellspacing="0" cellpadding="0" align="center" class="footergradient">
+      <tr>
+        <td colspan="3"><h1>What our clients are saying about us</h1></td>
+        <td width="34%" rowspan="2"><center><a href="http://www.chambersgroup.com" target="_new"><img src="images/footerkeith.gif" alt="Keith Chambers" border="0"></a></center></td>
+      </tr>
+      <tr>
+        <td width="23%" valign="top"><p class="small">JumpStart Marketer provides a compelling process for realizing your brand's full potential… A true roadmap to success.</p>
+          <p class="small"><strong>PAULA MCKEE</strong><br>
+          Owner, GymRa</p></td>
+        <td width="23%" valign="top"><p class="small">This work is for everybody who wants to beat the competition and stay ahead of the game. </p>
+          <p class="small"><strong>DOMINIC KELLY</strong><br>
+            Composer/Owner,<br>
+          DOM Music Library</p></td>
+        <td width="23%" valign="top"><p class="small">JumpStart Marketer focuses on what motivates the consumer at the point of impact.</p>
+          <p class="small"><strong>SPERO CONOMIKES</strong><br>
+          Owner/President, Cornerstone Mantels</p></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    $('.lightbox').lightbox();
+  });
+</script>
+</body>
+</html>

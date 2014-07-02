@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>jQuery Sort List Example</title>
+		
+		<!--Link to stylesheet for this example-->
+		<link href="jQuerySortList.css" rel="stylesheet" type="text/css" />
+		
+		<!--Link to required jQuery libraries (http://ui.jquery.com) for this control-->
+		<script src="jQuery/jquery-1.2.1.js"></script>
+		<script src="jQuery/jquery.ui-1.0/jquery.dimensions.js"></script>
+		<script src="jQuery/jquery.ui-1.0/ui.mouse.js"></script>
+		<script src="jQuery/jquery.ui-1.0/ui.draggable.js"></script>
+		<script src="jQuery/jquery.ui-1.0/ui.droppable.js"></script>
+		
+		<!--NOTE:  the ui.sortable.js file that originally came from version 1.0 
+		of the jQuery UI libraries had a bug in it that prevented the sort complete event
+		handler from working.  The version of the ui.sortable.js file included in this
+		download is patched to allow that event handler to work.  For more information, 
+		see http://dev.jquery.com/ticket/1679.  Later versions of the jQuery UI library
+		will no doubt include this patch or improve upon it.-->
+		<script src="jQuery/jquery.ui-1.0/ui.sortable.js"></script>
+		
+		<!--Link to custom functions for this example-->
+		<script language="javascript" src="jQuerySortList.js"></script>
+	
+	</head>
+	<body>
+		
+	<ul id="sortableList">
+				
+		<li id="1" class="sortableItem">
+			 X * Y= 39.  X + Y= 16, X - Y= -10.  What is X and what is Y? (Math)
+			&nbsp;&nbsp;&nbsp;<a href="javascript:alert('X is 3, Y is 13');">View Answer</a>	
+		</li>
+
+		<li id="5" class="sortableItem">
+			 Who wrote the famous pamphlet "Common Sense"? (History)
+			&nbsp;&nbsp;&nbsp;<a href="javascript:alert('Thomas Paine');">View Answer</a>	
+		</li>
+	
+		<li id="2" class="sortableItem">
+			 Name the ABC News reporter who received a serious head wound in Iraq. (Current Events)
+			&nbsp;&nbsp;&nbsp;<a href="javascript:alert('Bob Woodward');">View Answer</a>	
+		</li>
+	
+		<li id="3" class="sortableItem">
+			 Which state is bigger in geographical size, Texas or Alaska? (Geography)
+			&nbsp;&nbsp;&nbsp;<a href="javascript:alert('Alaska');">View Answer</a>	
+		</li>
+
+		<li id="4" class="sortableItem">
+			 Who are the two scientists credited with discovering DNA? (Science)
+			&nbsp;&nbsp;&nbsp;<a href="javascript:alert('Watson and Crick');">View Answer</a>	
+		</li>
+				
+	</ul>
+		
+	<form name="sortForm" method="post" action="{Processing page}">
+		<p>
+			<label for="itemIds" id="lbl_itemIds">New Item Order:</label>
+			<input type="text" name="itemIds" id="itemIds" value="" size="20"/>
+		</p>
+	
+		<input type="submit" name="submitSort" id="submitSort" value="Save Changes" />
+
+	</form>	
+		
+	</body>
+</html>

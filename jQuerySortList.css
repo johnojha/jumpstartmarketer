@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.sortableItem {
+	margin-bottom:.8ex;
+	}
+	
+.selectedItem {
+	border:0px solid #cccccc;
+}
+
+.successText {
+	color:green;
+	font-weight:bold;
+	}
+	
+.errorText {
+	color:red;
+	font-weight:bold;
+}
+
+

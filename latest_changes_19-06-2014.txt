@@ -1,0 +1,10 @@
+menu_header : session variable  is checked
+
+act_personal_question :session variable declared during registration
+
+payment : url checked for type based upont that payment  is done
+
+
+act_login : added new field "religion" , religion is for getting the branddtype
+
+created different folders for  brand, gold silver

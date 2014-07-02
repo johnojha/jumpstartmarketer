@@ -1,0 +1,34 @@
+<html>
+<head><title>Scrolling a DIV with JavaScript</title>
+
+<script language='javascript'>
+  
+  function move_up() {
+    scroll_clipper.scrollTop = 0;
+  }
+
+</script>
+
+</head>
+<body>
+
+  <a href='javascript:move_up()'>Move UP</a>
+
+  <p>
+
+  <div id='scroll_clipper' style='position:absolute; width:150px; height: 150px; overflow:auto'>
+    <div id='scroll_text' style='background-color:yellow'>
+       Here is some content that can be scrolled.
+       <p>It uses two divs:<ul>
+         <li>scroll_clipper, and
+         <li>scroll_text
+        </ul>
+
+      scroll_clipper defines the scroll area while scroll_text
+      defines the text to be scrolled.
+
+    </div>
+  </div>
+
+</body>
+</html>
